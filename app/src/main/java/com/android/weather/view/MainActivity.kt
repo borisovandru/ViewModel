@@ -1,8 +1,8 @@
-package com.android.viewmodel.view
+package com.android.weather.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.android.viewmodel.databinding.MainActivityBinding
+import com.android.weather.databinding.MainActivityBinding
 
 class MainActivity : AppCompatActivity() {
 

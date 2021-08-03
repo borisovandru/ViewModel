@@ -1,6 +1,6 @@
-package com.android.viewmodel.model.repository
+package com.android.weather.model.repository
 
-import com.android.viewmodel.model.data.Weather
+import com.android.weather.model.data.Weather
 
 interface Repository {
     fun getWeatherFromServer(): Weather

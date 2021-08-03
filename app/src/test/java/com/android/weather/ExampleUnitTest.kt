@@ -1,4 +1,4 @@
-package com.android.viewmodel
+package com.android.weather
 
 import org.junit.Test
 

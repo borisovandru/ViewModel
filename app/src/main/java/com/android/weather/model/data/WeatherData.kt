@@ -1,4 +1,4 @@
-package com.android.viewmodel.model.data
+package com.android.weather.model.data
 
 fun getWorldCities() = listOf(
     Weather(City("Лондон", 51.5085300, -0.1257400), 1, 2),

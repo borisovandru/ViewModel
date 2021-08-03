@@ -1,4 +1,4 @@
-package com.android.viewmodel.view
+package com.android.weather.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.android.viewmodel.R
-import com.android.viewmodel.databinding.MainFragmentBinding
-import com.android.viewmodel.model.AppState
-import com.android.viewmodel.viewmodel.MainViewModel
+import com.android.weather.R
+import com.android.weather.databinding.MainFragmentBinding
+import com.android.weather.model.AppState
+import com.android.weather.viewmodel.MainViewModel
 
 class MainFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.android.viewmodel.view
+package com.android.weather.view
 
 import android.view.View
 import com.google.android.material.snackbar.Snackbar

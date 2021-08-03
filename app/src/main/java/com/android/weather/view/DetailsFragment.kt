@@ -1,13 +1,13 @@
-package com.android.viewmodel.view
+package com.android.weather.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.android.viewmodel.R
-import com.android.viewmodel.databinding.DetailsFragmentBinding
-import com.android.viewmodel.model.data.Weather
+import com.android.weather.R
+import com.android.weather.databinding.DetailsFragmentBinding
+import com.android.weather.model.data.Weather
 
 class DetailsFragment : Fragment() {
 

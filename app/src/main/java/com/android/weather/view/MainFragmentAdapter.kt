@@ -1,10 +1,10 @@
-package com.android.viewmodel.view
+package com.android.weather.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.viewmodel.databinding.MainRecyclerItemBinding
-import com.android.viewmodel.model.data.Weather
+import com.android.weather.databinding.MainRecyclerItemBinding
+import com.android.weather.model.data.Weather
 
 class MainFragmentAdapter :
     RecyclerView.Adapter<MainFragmentAdapter.MainViewHolder>() {

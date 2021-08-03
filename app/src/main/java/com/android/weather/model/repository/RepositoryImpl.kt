@@ -1,8 +1,8 @@
-package com.android.viewmodel.model.repository
+package com.android.weather.model.repository
 
-import com.android.viewmodel.model.data.Weather
-import com.android.viewmodel.model.data.getRussianCities
-import com.android.viewmodel.model.data.getWorldCities
+import com.android.weather.model.data.Weather
+import com.android.weather.model.data.getRussianCities
+import com.android.weather.model.data.getWorldCities
 
 class RepositoryImpl : Repository {
     override fun getWeatherFromServer() = Weather()
