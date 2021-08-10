@@ -5,14 +5,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.android.weather.BuildConfig
 import com.android.weather.R
 import com.android.weather.databinding.DetailsFragmentBinding
 import com.android.weather.model.data.Weather
+
+private const val YOUR_API_KEY = BuildConfig.WEATHER_API_KEY
 
 class DetailsFragment : Fragment() {
 
     private var _binding: DetailsFragmentBinding? = null
     private val binding get() = _binding!!
+    private lateinit var weatherBundle: Weather
 
     override fun onCreateView(
         inflater: LayoutInflater,

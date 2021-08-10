@@ -38,7 +38,7 @@ class MainFragmentAdapter :
         return weatherData.size
     }
 
-    inner class MainViewHolder(val binding: MainRecyclerItemBinding) :
+    inner class MainViewHolder(private val binding: MainRecyclerItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(weather: Weather) {
