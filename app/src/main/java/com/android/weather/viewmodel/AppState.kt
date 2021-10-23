@@ -1,4 +1,4 @@
-package com.android.weather.model
+package com.android.weather.viewmodel
 
 import com.android.weather.model.data.Weather
 

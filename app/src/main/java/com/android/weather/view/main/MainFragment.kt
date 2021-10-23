@@ -1,4 +1,4 @@
-package com.android.weather.view
+package com.android.weather.view.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.android.weather.R
 import com.android.weather.databinding.MainFragmentBinding
-import com.android.weather.model.AppState
+import com.android.weather.viewmodel.AppState
+import com.android.weather.view.details.DetailsFragment
+import com.android.weather.model.utils.hide
+import com.android.weather.model.utils.show
+import com.android.weather.model.utils.showSnackBar
 import com.android.weather.viewmodel.MainViewModel
 
 class MainFragment : Fragment() {
@@ -21,9 +25,9 @@ class MainFragment : Fragment() {
     private val viewModel: MainViewModel by lazy {
         ViewModelProvider(this).get(MainViewModel::class.java)
     }
+
     private var _binding: MainFragmentBinding? = null
-    private val binding
-        get() = _binding!!
+    private val binding get() = _binding!!
     private val adapter = MainFragmentAdapter()
     private var isDataSetRus: Boolean = true
 
@@ -39,7 +43,7 @@ class MainFragment : Fragment() {
         adapter.setOnItemViewClickListener { weather ->
             activity?.supportFragmentManager?.apply {
                 beginTransaction()
-                    .add(R.id.container, DetailsFragment.newInstance(Bundle().apply {
+                    .replace(R.id.container, DetailsFragment.newInstance(Bundle().apply {
                         putParcelable(DetailsFragment.BUNDLE_EXTRA, weather)
                     }))
                     .addToBackStack("")
@@ -51,9 +55,7 @@ class MainFragment : Fragment() {
         binding.mainFragmentFAB.setOnClickListener {
             changeWeatherDataSet()
         }
-        val observer = Observer<AppState> { a ->
-            renderData(a)
-        }
+        val observer = Observer<AppState> { renderData(it) }
         viewModel.getData().observe(viewLifecycleOwner, observer)
         viewModel.getWeatherFromLocalSourceWorld()
     }
@@ -80,9 +82,15 @@ class MainFragment : Fragment() {
             }
             is AppState.Error -> {
                 binding.loadingLayout.hide()
-                binding.mainFragmentFAB.showSnackBar("Error", "Reload") {
-                    if (isDataSetRus) viewModel.getWeatherFromLocalSourceRus()
-                    else viewModel.getWeatherFromLocalSourceWorld()
+                binding.mainFragmentFAB.showSnackBar(
+                    getString(R.string.text_error),
+                    getString(R.string.text_reload)
+                ) {
+                    if (isDataSetRus) {
+                        viewModel.getWeatherFromLocalSourceRus()
+                    } else {
+                        viewModel.getWeatherFromLocalSourceWorld()
+                    }
                 }
             }
         }
