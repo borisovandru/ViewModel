@@ -12,7 +12,7 @@ import com.android.weather.model.utils.hide
 import com.android.weather.model.utils.show
 import com.android.weather.model.utils.showSnackBar
 import com.android.weather.viewmodel.AppState
-import com.android.weather.viewmodel.HistoryViewModel
+import com.android.weather.viewmodel.history.HistoryViewModel
 
 class HistoryFragment : Fragment() {
 
