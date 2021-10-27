@@ -1,4 +1,4 @@
-package com.android.weather.viewmodel
+package com.android.weather.viewmodel.details
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -12,6 +12,7 @@ import com.android.weather.model.repository.details.DetailsRepositoryImpl
 import com.android.weather.model.repository.local.LocalRepository
 import com.android.weather.model.repository.local.LocalRepositoryImpl
 import com.android.weather.model.utils.convertDtoToModel
+import com.android.weather.viewmodel.AppState
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

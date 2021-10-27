@@ -16,8 +16,7 @@ import com.android.weather.model.utils.show
 import com.android.weather.model.utils.showSnackBar
 import com.android.weather.view.details.DetailsFragment
 import com.android.weather.viewmodel.AppState
-import com.android.weather.viewmodel.MainViewModel
-
+import com.android.weather.viewmodel.main.MainViewModel
 
 private const val IS_RUSSIAN_KEY = "LIST_OF_RUSSIAN_KEY"
 

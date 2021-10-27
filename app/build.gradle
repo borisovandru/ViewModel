@@ -39,7 +39,6 @@ android {
 
     buildTypes.each {
         Properties properties = new Properties()
-
         properties.load(project.rootProject.file("local.properties").newDataInputStream())
         def apiKey = properties.getProperty("yandex_weather_api_key", "")
         it.buildConfigField "String", "WEATHER_API_KEY", apiKey
