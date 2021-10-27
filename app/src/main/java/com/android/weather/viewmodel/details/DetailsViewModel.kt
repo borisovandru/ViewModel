@@ -4,14 +4,14 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.android.weather.app.App.Companion.getHistoryDao
 import com.android.weather.model.data.Weather
+import com.android.weather.model.utils.convertDtoToModel
 import com.android.weather.model.dto.FactDTO
 import com.android.weather.model.dto.WeatherDTO
-import com.android.weather.model.repository.RemoteDataSource
+import com.android.weather.model.repository.*
 import com.android.weather.model.repository.details.DetailsRepository
 import com.android.weather.model.repository.details.DetailsRepositoryImpl
 import com.android.weather.model.repository.local.LocalRepository
 import com.android.weather.model.repository.local.LocalRepositoryImpl
-import com.android.weather.model.utils.convertDtoToModel
 import com.android.weather.viewmodel.AppState
 import retrofit2.Call
 import retrofit2.Callback
