@@ -3,11 +3,10 @@ package com.android.weather.view.main
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.android.weather.databinding.MainRecyclerItemBinding
+import com.android.weather.databinding.RecyclerItemMainBinding
 import com.android.weather.model.data.Weather
 
-class MainFragmentAdapter :
-    RecyclerView.Adapter<MainFragmentAdapter.MainViewHolder>() {
+class MainFragmentAdapter : RecyclerView.Adapter<MainFragmentAdapter.MainViewHolder>() {
 
     private var weatherData: List<Weather> = listOf()
     private var onItemViewClickListener: (Weather) -> Unit = {}
@@ -22,10 +21,8 @@ class MainFragmentAdapter :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
-        val binding = MainRecyclerItemBinding.inflate(
-            LayoutInflater.from(parent.context),
-            parent,
-            false
+        val binding = RecyclerItemMainBinding.inflate(
+            LayoutInflater.from(parent.context), parent, false
         )
         return MainViewHolder(binding)
     }
@@ -38,7 +35,7 @@ class MainFragmentAdapter :
         return weatherData.size
     }
 
-    inner class MainViewHolder(private val binding: MainRecyclerItemBinding) :
+    inner class MainViewHolder(private val binding: RecyclerItemMainBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(weather: Weather) {

@@ -1,4 +1,4 @@
-package com.android.weather.model.repository
+package com.android.weather.model.repository.main
 
 import com.android.weather.model.data.Weather
 
