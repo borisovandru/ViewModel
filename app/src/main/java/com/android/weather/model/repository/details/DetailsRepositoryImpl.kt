@@ -1,6 +1,7 @@
-package com.android.weather.model.repository
+package com.android.weather.model.repository.details
 
 import com.android.weather.model.dto.WeatherDTO
+import com.android.weather.model.repository.RemoteDataSource
 import retrofit2.Callback
 
 class DetailsRepositoryImpl(private val remoteDataSource: RemoteDataSource) : DetailsRepository {
