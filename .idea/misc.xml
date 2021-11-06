@@ -3,21 +3,51 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_change_city_list.xml" value="0.18" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_contacts_list.xml" value="0.27037037037037037" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_delete.xml" value="0.2" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_earth.xml" value="0.2153846153846154" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_google_maps.xml" value="0.22" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_history.xml" value="0.2" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_home.xml" value="0.22" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_info.xml" value="0.22" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2153846153846154" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_location_searching_and_get_weather.xml" value="0.22" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_maps.xml" value="0.25" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_move_down.xml" value="0.22" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_move_up.xml" value="0.22" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_russia.xml" value="0.2153846153846154" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_settings.xml" value="0.22" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_splash_logo_app.xml" value="0.2" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_visibility.xml" value="0.2" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/drawable/ic_visibility_2.xml" value="0.2" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/activity_splash.xml" value="0.12407407407407407" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/details_fragment.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_contact_list.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_details.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_google_maps.xml" value="0.12407407407407407" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_history.xml" value="0.1" />
-        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_main.xml" value="0.25" />
-        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_maps.xml" value="0.33" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_home.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_info.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_main.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_change_city_list.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_google_maps.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_history.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_home.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_location_searching_and_get_weather.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_settings.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_screen_visibility.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/fragment_weather.xml" value="0.12407407407407407" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/google_maps.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/google_maps_layout.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/item_history_recycler_view.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/item_home_recycler_view.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/layout_google_maps.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/layout_progress_bar.xml" value="0.12407407407407407" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/loading_layout.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/main_activity.xml" value="0.1762917933130699" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/main_fragment.xml" value="0.1762917933130699" />
@@ -27,6 +57,10 @@
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/recycler_item_history.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/layout/recycler_item_main.xml" value="0.1" />
         <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/menu/menu_action.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/menu/menu_bottom_navigation_view.xml" value="0.1" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/menu/menu_toolbar_on_home_fragment.xml" value="0.16" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/boris/AndroidStudioProjects/Kotlin/Weather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16" />
       </map>
     </option>
   </component>
