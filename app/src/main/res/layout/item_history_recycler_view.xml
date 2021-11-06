@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/history_layout_margin"
+    android:background="@color/light_blue_50"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/city_name"
+            style="@style/History_TextView"
+            android:textSize="@dimen/history_item_city_text_size"
+            tools:text="New York City" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/move_up"
+            style="@style/History_ImageView"
+            android:src="@drawable/ic_move_up" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weather_condition"
+            style="@style/History_TextView"
+            android:textSize="@dimen/style_history_text_view"
+            tools:text="Rain" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/move_down"
+            style="@style/History_ImageView"
+            android:src="@drawable/ic_move_down" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weather_temperature"
+            style="@style/History_TextView"
+            android:textSize="@dimen/style_history_text_view"
+            tools:text="7" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/delete"
+            style="@style/History_ImageView"
+            android:src="@drawable/ic_delete" />
+
+    </LinearLayout>
+</LinearLayout>

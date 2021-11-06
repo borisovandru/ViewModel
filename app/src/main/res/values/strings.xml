@@ -23,4 +23,11 @@
     <string name="default_address">Red Square, 1, Moscow</string>
     <string name="button_search_map">Search</string>
     <string name="marker_start">Start</string>
+    <string name="menu_bnv_history">History</string>
+    <string name="menu_bnv_google_maps">Google Maps</string>
+    <string name="menu_bnv_home">Home</string>
+    <string name="menu_bnv_settings">Settings</string>
+    <string name="name_app_splash_activity">WEATHER</string>
+    <string name="toolbar_on_home_fragment_info">Info</string>
+    <string name="toolbar_on_home_fragment_visibility">Visibility FABs</string>
 </resources>
